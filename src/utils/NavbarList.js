@@ -1,10 +1,5 @@
 export const NavbarList = [
     {
-        id: 1,
-        caption: "GEEKS",
-        route: "/"
-    },
-    {
         id: 2,
         caption: "Курсы",
         route: "/courses"
