@@ -3,16 +3,17 @@ import classes from './workGraduates.module.css'
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
 import { Navigation } from 'swiper/modules';
 import 'swiper/css'
-import { ReactComponent as ArrowRightLink } from '../icons/arrowRight.svg'
+import { ReactComponent as BlackArrowRight } from '../icons/blackArrowRight.svg'
+import { ReactComponent as BlackArrowLeft } from '../icons/blackArrowLeft.svg'
 
 
 function WorkSlider({ slides }) {
     return (
         <>
-            <div className="mainContainer">
+            <div className={classes.mainContainer}>
                 <div className={classes.headingAndBtns}>
                     <p className={classes.workTitle}>Выпускные работы студентов</p>
-                    <SwiperNavButton/>
+                    
                 </div>
             </div>
             <div className={classes.sliderWrapper}>
@@ -47,7 +48,7 @@ function WorkSlider({ slides }) {
                             className={classes.link}
                             >
                             Перейти
-                            <ArrowRightLink/>
+                            <BlackArrowRight/>
                             </a>
                         </button>
                         </div>
@@ -68,8 +69,10 @@ const SwiperNavButton = () => {
         <div>
             <div className={classes.btns}>
                 <button color='black' onClick={() => swiper.slidePrev()}>
+                    <BlackArrowLeft/>
                 </button>
                 <button color='black' onClick={() => swiper.slideNext()}>
+                    <BlackArrowRight/>
                 </button>
             </div>
         </div>

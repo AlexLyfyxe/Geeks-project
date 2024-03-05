@@ -4,6 +4,36 @@
     max-width: 1440px;
 }
 
+
+p {
+    color: var(--text-color);
+    font-family: var(--root-font-grotesk);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+}
+
+
+span {
+    color: var(--primary-color);
+    font-family: var(--root-font-montserrat);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    text-align: left;
+}
+
+li {
+    color: var(--primary-color);
+    font-family: var(--root-font-montserrat);
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+
 /* centerMain */
 
 .centerTitle {
@@ -171,6 +201,3 @@
     margin: 0 auto;
     width: 100%;
 }
-
-
-/* root */
