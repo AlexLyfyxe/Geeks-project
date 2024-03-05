@@ -1,12 +1,12 @@
 import React from 'react';
 import 'react-redux'
-import '../../style.css'
+import '../../../style.css'
 import classes from './main.module.css'
 import { main } from './data'
 import StudentsGraduatesItem from './mainComponents/studentsGraduates/StudentsGraduatesItem';
 import WorkSlider from './mainComponents/workGraduates/WorkGraduates';
 import ReviewSlider from './mainComponents/studentsReview/StudentsReview';
-import { ReactComponent as ArrowRightLink } from '../main/mainComponents/icons/arrowRight.svg'
+import { ReactComponent as BlackArrowRight } from '../main/mainComponents/icons/blackArrowRight.svg'
 import { ContactsBox, Mapbox } from './mainComponents/contactsMap/ContactsMap';
 
 const Main = () => {
@@ -69,7 +69,7 @@ const Main = () => {
               <a href="" target='_blank'>
                 <button color='yellow' className={classes.testLink}>
                   Пройти тест
-                  <ArrowRightLink />
+                  <BlackArrowRight/>
                 </button>
               </a>
             </div>

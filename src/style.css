@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    --primary-color: #2c2e35;
+    --text-color: #fff;
+
+    --button-background-color: #ffe743;
+
+    --root-color-yellow: #ffe743;
+
+    --root-font-montserrat: "Montserrat", sans-serif;
+    --root-font-grotesk: "Reforma Grotesk", sans-serif;
+}
