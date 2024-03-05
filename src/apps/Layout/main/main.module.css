@@ -1,0 +1,176 @@
+.mainContainer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+/* centerMain */
+
+.centerTitle {
+    font-size: 35.63px;
+    line-height: 66px;
+    text-transform: uppercase;
+}
+
+.centerSubtitle {
+    width: 820px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.centerMain {
+    padding-bottom: 100px;
+}
+
+.upperImg {
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+}
+
+.upperImg>img {
+    height: 900px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.upperImg::after {
+    background: linear-gradient(180deg,hsla(0,0%,6%,0) 44.28%,#141414 98.69%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.centerWrapper {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.images {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.images>img {
+    height: 476.77px;
+    width: 318px;
+}
+
+.shadowImg {
+    background: #000;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    height: 11px;
+    margin: 0 auto;
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+    width: 55%;
+}
+
+.center_center {
+    align-self: center;
+    height: 100%;
+    text-align: center;
+}
+
+
+/* studentsGraduates */
+
+.studentGraduates {
+    background: var(--root-color-yellow);
+    padding: 100px 0 82px;
+}
+
+.studentTitle {
+    font-family: var(--root-font-grotesk);
+    color: var(--primary-color);
+    font-size: 41.02px;
+    line-height: 77px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.infoBlock {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+
+/* workGraduates */
+
+
+.workGraduates {
+    background-color: #fff;
+    padding: 100px 0;
+    position: relative;
+}
+
+
+/* studentsReview */
+
+.studentsReview {
+    padding: 100px 0;
+}
+
+.reviewWrapper {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.reviewTitle {
+    font-size: 40.61px;
+    font-weight: 800;
+    line-height: 77px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+/* completeTest */
+
+.completeTest {
+    padding: 100px 0;
+}
+
+.testWrapper {
+    display: flex;
+    gap: 162px;
+}
+
+.testTitle {
+    margin-bottom: 24px;
+    font-size: 41.15px;
+    line-height: 70px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.testLink {
+    column-gap: 8px;
+}
+
+
+/* contactsMap */
+
+.contactsWrapper {
+    padding: 100px 0;
+}
+
+.contactsContent {
+    align-items: center;
+    column-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* root */
