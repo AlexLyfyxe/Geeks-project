@@ -26,8 +26,25 @@
     width: 100%;
 }
 
+.cityButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--root-font-montserrat);
+    font-weight: 600;
+    font-size: 20px;
+    height: 44px;
+    min-width: 64px;
+    padding: 6px 8px;
+    border-radius: 100px;
+    transition: .3s ease-out;
+    background-color: transparent;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
 .active {
-    background: var(--button-background-color);
+    background-color: var(--root-color-yellow);
     color: var(--primary-color);
 }
 

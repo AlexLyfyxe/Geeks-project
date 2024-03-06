@@ -25,7 +25,7 @@ const ContactsBox = () => {
                 {contacts.map((item, index) => (
                     <button
                         key={index}
-                        className={`${activeItem === index ? classes.active : ''}`} 
+                        className={`${classes.cityButton} ${activeItem === index ? classes.active : ''}`} 
                         onClick={() => handleCity(item, index)}
                     >
                         {item.name}

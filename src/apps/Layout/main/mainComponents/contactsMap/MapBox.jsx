@@ -1,4 +1,5 @@
 import React from 'react'
+import classes from './contactsMap.module.css'
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 

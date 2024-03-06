@@ -1,33 +1,30 @@
 import React from 'react'
 import classes from './workGraduates.module.css'
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
+import { Swiper, SwiperSlide} from 'swiper/react'
 import { Navigation } from 'swiper/modules';
 import 'swiper/css'
+import { ReactComponent as WhiteArrowRight } from '../icons/whiteArrowRight.svg'
+import { ReactComponent as WhiteArrowLeft } from '../icons/whiteArrowLeft.svg'
 import { ReactComponent as BlackArrowRight } from '../icons/blackArrowRight.svg'
-import { ReactComponent as BlackArrowLeft } from '../icons/blackArrowLeft.svg'
 
 
 function WorkSlider({ slides }) {
     return (
-        <>
-            <div className={classes.mainContainer}>
-                <div className={classes.headingAndBtns}>
-                    <p className={classes.workTitle}>Выпускные работы студентов</p>
-                    
-                </div>
+        <div className={classes.sliderContainer}>
+            <div className={classes.containerTitle}>
+                <p className={classes.title}>Выпускные работы студентов</p>
             </div>
-            <div className={classes.sliderWrapper}>
+            <div className={classes.sliderInner}>
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={20}
                     slidesPerView={2.545}
                     navigation={{
-                    nextEl: classes.swiperButtonNext,
-                    prevEl: classes.swiperButtonPrev
+                    nextEl: `.${classes.swiperButtonNext}`,
+                    prevEl: `.${classes.swiperButtonPrev}`
                     }}
-                    draggable={true}
+                    scrollbar={{ draggable: true }}
                     loop={true}
-                    className={classes.sliderContent}
                 >
                     {slides.map((slide, index) => (
                     <SwiperSlide key={index}>
@@ -55,26 +52,28 @@ function WorkSlider({ slides }) {
                     </SwiperSlide>
                     ))}
                 </Swiper>
+                <div className={classes.buttonArrangement}>
+                    <div className={classes.buttonSwiper}>
+                        <button className={classes.swiperButtonPrev}>
+                            <WhiteArrowLeft/>
+                        </button>
+                        <button className={classes.swiperButtonNext} >
+                            <WhiteArrowRight/>
+                        </button>
+                    </div>
+                </div>
             </div>
-        </>
+        </div>
     )
 }
 
 export default WorkSlider
 
-const SwiperNavButton = () => {
-    const swiper = useSwiper()
+// const SwiperNavButton = () => {
 
-    return (
-        <div>
-            <div className={classes.btns}>
-                <button color='black' onClick={() => swiper.slidePrev()}>
-                    <BlackArrowLeft/>
-                </button>
-                <button color='black' onClick={() => swiper.slideNext()}>
-                    <BlackArrowRight/>
-                </button>
-            </div>
-        </div>
-    )
-}
+//     return (
+//         <div>
+            
+//         </div>
+//     )
+// }
