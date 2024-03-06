@@ -5,9 +5,9 @@ import SignIn from "./SignIn";
 const Login = () => {
     return (
         <div className="loginPage">
-            <div className="header">
+            {/* <div className="header">
                 <img src={logo} alt="geeksLogo"/>
-            </div>
+            </div> */}
             <div className="content">
                 <div className="content-text">
                     <h1>Geeks Online</h1>
