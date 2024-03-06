@@ -7,12 +7,9 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
     "firebase": "^10.8.1",
-=======
     "framer-motion": "^11.0.8",
     "mapbox-gl": "^3.2.0",
->>>>>>> 524dd9c129c6580ae071330d28826eee870bb617
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.50.1",
