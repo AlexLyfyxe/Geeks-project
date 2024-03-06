@@ -1,0 +1,25 @@
+[
+    {
+        "img_grey": "https://geeks.kg/back_media/course/2023/10/10/e0be7c7c-d5c8-46ca-ae1a-912c16c9e5e2.png",
+        "img_color": "https://geeks.kg/back_media/course/2023/10/10/59b2942a-170f-4e29-a3c9-9037aaa06897.png",
+        "start_date": "29.02.2024",
+        "title": "ТЕСТИРОВЩИК ПО",
+        "description": "Стань тестировщиком ПО с нуля за 3 месяца и получи доступ к стажировке + помощь в трудоустройстве!",
+        "duration": "Длительность: 3 месяца"
+    },
+    {
+        "img_grey": "https://geeks.kg/back_media/course/2023/06/22/owner_1_1.svg",
+        "img_color": "https://geeks.kg/back_media/course/2023/06/22/owner-_1__1.svg",
+        "start_date": "Старт: 20.02.2024",
+        "title": "МЕНЕДЖЕР ПРОЕКТОВ",
+        "description": "Стань Менеджером проектов с нуля за 2 месяца! Получи доступ к стажировке и помощь в трудоустройстве!",
+        "duration": "Длительность: 2 месяца"
+    },
+    {
+        "img_grey": "https://geeks.kg/back_media/course/2023/10/10/e0be7c7c-d5c8-46ca-ae1a-912c16c9e5e2.png",
+        "start_date": "29.02.2024",
+        "title": "ТЕСТИРОВЩИК ПО",
+        "description": "Стань тестировщиком ПО с нуля за 3 месяца и получи доступ к стажировке + помощь в трудоустройстве!",
+        "duration": "Длительность: 3 месяца"
+    }
+]

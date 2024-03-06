@@ -1,0 +1,14 @@
+{
+    "text": "Какой-то текст",
+    "header.about_us": "О нас",
+    "content.advantages.text_h1": "Преимущества",
+    "content.courses.text_h1": "Курсы",
+    "header": {
+        "GEEKS": "GEEKS",
+        "Courses": "Курсы",
+        "GEEKS JUNIOR": "GEEKS JUNIOR",
+        "GEEKS PRO": "GEEKS PRO",
+        "About Us": "О нас",
+        "Advantages": "ПРЕИМУЩЕСТВА"
+    }
+}

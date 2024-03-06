@@ -1,9 +1,15 @@
 import React from 'react';
+import TitleCours from './components/TitleCours/TitleCours';
+import AllUsersBlock from './components/AllUsersBlock/AllUsersBlok';
+
 
 const Courses = () => {
+
+
     return (
         <div>
-            <h1>Курсы</h1>
+            <TitleCours />
+            <AllUsersBlock />
         </div>
     );
 };
