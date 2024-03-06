@@ -1,10 +1,23 @@
 import React from 'react';
+import 'react-redux'
+import Main from "./blocks/main/Main";
+import HistoryAdd from "./blocks/historyAdd/HistoryAdd";
+import OurValues from "./blocks/ourValues/OurValues";
+import WorkBlock from "./blocks/work/WorkBlock";
+import Qualities from "./blocks/Qualities/Qualities";
+// import OurTeam from "./blocks/ourTeam/OurTeam";
+
 
 const AboutUs = () => {
     return (
-        <div>
-            <h1>О нас</h1>
-        </div>
+        <>
+            <Main/>
+            <HistoryAdd/>
+            <OurValues/>
+            <WorkBlock/>
+            <Qualities/>
+            {/*<OurTeam/>*/}
+        </>
     );
 };
 

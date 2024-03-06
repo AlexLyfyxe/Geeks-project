@@ -1,10 +1,10 @@
 import AboutUs from "./aboutUs/AboutUs";
 import Advantages from "./advantages/Advantages";
 import Courses from "./courses/Courses";
-import Main from "./main/main";
+import Main from "./main/Main"
 import GeeksPro from "./geeksPro/GeeksPro";
 import GeeksJunior from "./geeksJunior/GeeksJunior";
-//собирает в себе все страницы и экспортирует
+
 
 export{
     AboutUs,
