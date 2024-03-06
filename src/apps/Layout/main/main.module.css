@@ -4,7 +4,6 @@
     max-width: 1440px;
 }
 
-
 p {
     color: var(--text-color);
     font-family: var(--root-font-grotesk);
@@ -13,7 +12,6 @@ p {
     line-height: 21px;
     text-align: center;
 }
-
 
 span {
     color: var(--primary-color);
@@ -44,6 +42,7 @@ a, a:hover, a:visited {
 
 .centerSubtitle {
     width: 820px;
+    margin: 20px 0 32px;
     font-size: 14px;
     font-weight: 400;
 }
@@ -81,17 +80,6 @@ a, a:hover, a:visited {
     position: relative;
 }
 
-.images {
-    opacity: 1;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-}
-
-.images>img {
-    height: 476.77px;
-    width: 318px;
-}
-
 .shadowImg {
     background: #000;
     -webkit-filter: blur(10px);
@@ -107,6 +95,23 @@ a, a:hover, a:visited {
     align-self: center;
     height: 100%;
     text-align: center;
+}
+
+.centerButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--root-font-montserrat);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    min-width: 64px;
+    padding: 12px 24px;
+    transition: .3s ease-out;
+    background-color: var(--root-color-yellow);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 
@@ -171,19 +176,44 @@ a, a:hover, a:visited {
 
 .testWrapper {
     display: flex;
-    gap: 162px;
+    justify-content: space-between;
 }
 
 .testTitle {
-    margin-bottom: 24px;
     font-size: 41.15px;
     line-height: 70px;
     text-align: left;
     text-transform: uppercase;
 }
 
+.testText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.testImg {
+    height: 354px;
+    width: 532px;
+    margin-left: 157px;
+}
+
 .testLink {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     column-gap: 8px;
+    font-family: var(--root-font-montserrat);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 215px;
+    padding: 12px 24px;
+    transition: .3s ease-out;
+    background-color: var(--root-color-yellow);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 

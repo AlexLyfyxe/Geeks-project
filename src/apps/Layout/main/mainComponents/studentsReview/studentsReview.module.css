@@ -1,7 +1,19 @@
 
-.btns {
-    column-gap: 24px;
-    display: flex;
+.sliderContainer {
+    position: relative;
+}
+
+.title {
+    font-size: 40.61px;
+    font-weight: 800;
+    line-height: 77px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.sliderInner {
+    margin-top: 40px;
+    width: 100%;
 }
 
 .reviewSlide {
@@ -41,4 +53,29 @@
 .reviewIframe {
     position: relative;
     z-index: 99;
-} 
+}
+
+.buttonSwiper {
+    display: flex;
+    column-gap: 24px;
+}
+
+.swiperButtonPrev,
+.swiperButtonNext {
+    background: #fff;
+    cursor: pointer;
+    height: 94.14px;
+    width: 94.5px;
+    border-radius: 50%;
+}
+
+.swiperButtonPrev:hover,
+.swiperButtonNext:hover {
+    background: linear-gradient(0deg, rgba(44, 46, 53, .1), rgba(44, 46, 53, .1)), #fff;
+}
+
+.buttonArrangement {
+    position: absolute;
+    top: -10px;
+    right: 50px;
+}

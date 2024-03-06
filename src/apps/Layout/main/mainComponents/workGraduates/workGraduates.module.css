@@ -1,35 +1,26 @@
 
-.workTitle {
+.sliderContainer {
+    position: relative;
+}
+
+.containerTitle {
+    margin-left: 50px;
+}
+
+.title {
     font-family: var(--root-font-grotesk);
     color: var(--primary-color);
     font-size: 41.15px;
     font-weight: 800;
     line-height: 77px;
     text-transform: uppercase;
+    text-align: left;
 }
 
-.headingAndBtns {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.btns {
-    column-gap: 24px;
-    display: flex;
-}
-
-.sliderWrapper {
+.sliderInner {
     margin-top: 40px;
     padding-left: calc(50vw - 720px);
     width: 100%;
-}
-
-.sliderContent {
-    overflow-x: auto;
-    overflow-y: hidden;
-    scrollbar-width: none;
 }
 
 .workSlide {
@@ -91,4 +82,29 @@
     font-size: 15px;
     font-weight: 700;
     transition: .1s ease;
+}
+
+.buttonSwiper {
+    display: flex;
+    column-gap: 24px;
+}
+
+.swiperButtonPrev,
+.swiperButtonNext {
+    background: var(--primary-color);
+    cursor: pointer;
+    height: 94.14px;
+    width: 94.5px;
+    border-radius: 50%;
+}
+
+.swiperButtonPrev:hover,
+.swiperButtonNext:hover {
+    background: linear-gradient(0deg, hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), var(--primary-color);
+}
+
+.buttonArrangement {
+    position: absolute;
+    top: -10px;
+    right: 50px;
 }

@@ -19,20 +19,20 @@ const Main = () => {
         <div className={classes.mainContainer}>
           <div className={classes.centerWrapper}>
             <div className={classes.images}>
-              <img src='https://i.pinimg.com/236x/2a/e6/4b/2ae64be9c72d6a515366f6448bd94500.jpg' />
+              <img src='https://geeks.kg/back_media/main_block/2023/06/22/e775ccf8-e496-4e01-9bfb-dc53073d3700.webp' />
               <div className={classes.shadowImg}></div>
             </div>
             <div className={classes.center_center}>
               <p className={classes.centerTitle}>Курсы программирования Бишкек</p>
               <p className={classes.centerSubtitle}>Образовательный центр Geeks (Гикс) был основан Fullstack-разработчиком Айдаром Бакировым и Android-разработчиком Нургазы Сулаймановым в 2018-ом году в Бишкеке с целью дать возможность каждому человеку, даже без опыта в технологиях, гарантированно освоить IT-профессию. В данный момент более 1200 студентов в возрасте от 12 до 45 лет изучают здесь программирование, дизайн и английский язык. Филиальная сеть образовательного центра представлена в таких городах, как Бишкек, Ош и Кара-Балта.</p>
               <a href='/aboutUs'>
-                <button>
+                <button className={classes.centerButton}>
                   Подробнее о нас
                 </button>
               </a>
             </div>
             <div className={classes.images}>
-              <img src='https://media.notify.moe/images/characters/large/ZKSCbemmg.webp?1524325828' />
+              <img src='https://geeks.kg/back_media/main_block/2023/06/22/6f29146d-3631-4018-9ab6-762728cb9780.webp' />
               <div className={classes.shadowImg}></div>
             </div>
           </div>
@@ -53,9 +53,6 @@ const Main = () => {
       </div>
       <div className={classes.studentsReview}>
         <div className={classes.mainContainer}>
-          <div>
-            <p className={classes.reviewTitle}>Отзывы студентов</p>
-          </div>
           <div className={classes.reviewWrapper}>
             <ReviewSlider slides={main.reviewsSlides} />
           </div>
@@ -64,18 +61,14 @@ const Main = () => {
       <div className={classes.completeTest}>
         <div className={classes.mainContainer}>
           <div className={classes.testWrapper}>
-            <div className={classes.testLeft}>
+            <div className={classes.testText}>
               <p className={classes.testTitle}>Пройдите тест чтобы определиться с направлением</p>
-              <a href="" target='_blank'>
-                <button color='yellow' className={classes.testLink}>
+              <a className={classes.testLink} href="" target='_blank'>
                   Пройти тест
-                  <BlackArrowRight/>
-                </button>
+                  <BlackArrowRight />
               </a>
             </div>
-            <div className={classes.testRight}>
-              <img src="https://images.squarespace-cdn.com/content/v1/5ace4845e17ba35c9d8eb95e/cd4f95b1-8bd5-4e9b-88ab-92b267c3d5d0/ayanokji+and+hirotika.PNG" alt="" />
-            </div>
+            <img className={classes.testImg} src="https://geeks.kg/back_media/main_block/2023/06/22/6b3be227-7559-4304-aed4-02c769337c16.webp" alt="" />
           </div>
         </div>
       </div>
