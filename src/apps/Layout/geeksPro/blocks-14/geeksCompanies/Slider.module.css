@@ -1,0 +1,12 @@
+.image_container {
+    position: relative;
+    overflow: hidden;
+}
+.image_container img {
+    filter: grayscale(100%);
+    border: none;
+    outline: none;
+}
+.image_container:hover img {
+    filter: grayscale(0%);
+}
