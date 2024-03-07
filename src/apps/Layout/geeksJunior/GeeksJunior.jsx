@@ -1,6 +1,7 @@
 import React from 'react';
 
-const GeeksJunior = () => {
+
+function GeeksJunior () {
     return (
         <div>
             <h1>Geeks Junior</h1>

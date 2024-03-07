@@ -4,6 +4,7 @@ const Advantages = () => {
     return (
         <div>
             <h1>Преимущества</h1>
+            <button>create</button>
         </div>
     );
 };
