@@ -30,12 +30,11 @@ function GeeksCompanies() {
                         </div>
                     </div>
                 </div>
-
-                <div className={classes.slider_container}>
-                    <div className={classes.slider_wrap}>
-                        <div className={classes.slider}>
-                            <SliderSlick sliderRef={sliderRef} next={next} previous={previous}/>
-                        </div>
+            </div>
+            <div className={classes.slider_container}>
+                <div className={classes.slider_wrap}>
+                    <div className={classes.slider}>
+                        <SliderSlick sliderRef={sliderRef} next={next} previous={previous}/>
                     </div>
                 </div>
             </div>

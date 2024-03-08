@@ -12,15 +12,19 @@ const Header = () => {
                     <Link to={'/'}>
                         <img src="https://geeks.kg/static/media/Logo.857f888619bb2c8fbecc9c3a4c3e4a5f.svg" alt=""/>
                     </Link>
-                        {
-                            NavbarList.map(item => (
-                                <nav key={item.id} >
-                                    <Link to={item.route}>
-                                        {item.caption}
-                                    </Link>
-                                </nav>
-                            ))
-                        }
+                        {/*{*/}
+                            <div className="navigation_nav">
+                                {
+                                NavbarList.map(item => (
+                                    <nav key={item.id} >
+                                        <Link to={item.route}>
+                                            {item.caption}
+                                        </Link>
+                                    </nav>
+                                ))
+                                }
+                            </div>
+                        {/*}*/}
                     <a className="btn" href="https://geeks.bitrix24site.ru/crm_form_85mqv/">
                         ЗАПИСАТЬСЯ
                         <img src={Arrow} alt=""/>

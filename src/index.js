@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import {BrowserRouter} from "react-router-dom";
 import {Provider} from "react-redux";
-import {store} from "./store"
+import {store} from "./store";
 import "./fonts/Montserrat/stylesheet.css"
 import "./fonts/ReformaGrotesk/stylesheet.css"
+import './firebase'
+
+
 import './firebase'
 
 
