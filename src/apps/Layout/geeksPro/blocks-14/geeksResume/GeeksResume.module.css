@@ -7,9 +7,10 @@
     box-sizing: border-box;
     display: block;
     position: absolute;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
+
 .signIn_wrap {
     left: 50%;
     top: 50%;
@@ -17,10 +18,12 @@
     position: absolute;
     background: #343332;
     display: grid;
-    height: 546px;
     place-content: center;
     width: 954px;
+    height: 546px;
 }
+
+
 .signIn_title {
     font-size: 70px;
     text-align: center;

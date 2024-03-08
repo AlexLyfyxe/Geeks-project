@@ -8,7 +8,7 @@ body{
     color: white;
 }
 .container {
-    width: 1100px;
+    width: 1440px;
     margin: 0 auto;
 }
 header {
@@ -22,23 +22,33 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
+    padding: 0 !important;
 }
+.navigation_nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 70%;
+}
+
 nav {
     display: flex;
     align-items: center;
 }
 nav a {
-    font-family: Montserrat;
-    font-size: 11px;
-    text-decoration-line: none;
-    color: #ffffff;
+    color: white;
+    font-size: 16px;
     font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
 }
 nav a:hover {
     font-weight: 600;
 }
 .btn {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: black;
     font-weight: 400;

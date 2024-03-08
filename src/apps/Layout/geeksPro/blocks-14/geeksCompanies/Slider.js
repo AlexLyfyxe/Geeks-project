@@ -9,12 +9,12 @@ const SliderSlick= ({ sliderRef, next, previous }) => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 300,
-        slidesToShow: 3,
-        slidesToScroll: 10,
-        centerMode:true,
+        speed: 400,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        // centerMode:true,
         variableWidth: true,
-        centerPadding: '-85px',
+        centerPadding: '-8px',
     };
 
     return (

@@ -1,50 +1,21 @@
-import React, {useState} from 'react';
-import {TextInput} from "../../../components/textInput/TextInput";
-import {useForm} from "react-hook-form";
-import SubmitButton from "../../../components/submitButton/SubmitButton";
-import login from "../login/login";
-
+import React from 'react';
+import logo from "../images/geeksLogo.svg";
+import SignUp from "./SignUp";
+import "../styles/loginStyle.css"
 const Register = () => {
-    // const [text, setText] = useState("");
 
-    const {
-        register,
-        handleSubmit
-    } = useForm();
-
-    const onSubmit = (data)  => {
-        console.log(data)
-    }
 
     return (
-        <div className="container">
-            <div className="register">
-                <div className="register_card">
-                    <h2>Registration</h2>
-
-                    <form onSubmit={handleSubmit(onSubmit)} >
-                        <div>
-                            <TextInput
-                                type="text"
-                                placeholder="Username"
-                                {...register("username")}
-                            />
-                        </div>
-
-                        <div>
-                            <TextInput
-                                type="email"
-                                placeholder="Email"
-                                {...register("email")}
-                            />
-                        </div>
-                        <div>
-                            <SubmitButton
-                                caption={"Register"}
-                            />
-                        </div>
-                    </form>
+        <div className="registerPage">
+            <div className="header">
+                <img src={logo} alt="geeksLogo"/>
+            </div>
+            <div className="content">
+                <div className="content-text">
+                    <h1>Geeks Online</h1>
+                    <h3>Образовательная платформа для организации учебного процесса</h3>
                 </div>
+                <SignUp/>
             </div>
         </div>
     );

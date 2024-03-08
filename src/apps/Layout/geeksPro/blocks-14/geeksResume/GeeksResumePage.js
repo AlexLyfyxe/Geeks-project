@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from "./GeeksResume.module.css";
 import {useEffect} from "react";
+
 const GeeksResumePage = ({handleShow}) => {
     const CloseBtn = ({ action, text }) => {
         return (
@@ -48,3 +49,7 @@ const GeeksResumePage = ({handleShow}) => {
 };
 
 export default GeeksResumePage;
+
+
+
+

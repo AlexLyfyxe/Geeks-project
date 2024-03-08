@@ -1,0 +1,56 @@
+
+.person {
+    width: 420px;
+    margin-right: 90px;
+}
+
+.mainInfo {
+    display: flex;
+}
+
+.studentNamePosition {
+    margin-left: 20px;
+}
+
+.positionInfo {
+    color: var(--primary-color);
+    font-family: var(--root-font-montserrat);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    opacity: .5;
+    text-align: left;
+}
+
+.imgWrapper {
+    height: 85px;
+    min-width: 90px;
+    position: relative;
+}
+
+.img {
+    position: relative;
+    z-index: 1;
+}
+
+.img>img {
+    height: 85px;
+    width: 85px;
+}
+
+.imgSquare {
+    background: #fff;
+    bottom: -5px;
+    height: 85px;
+    position: absolute;
+    right: 0;
+    width: 85px;
+}
+
+.subtitle {
+    margin-top: 20px;
+    color: var(--primary-color);
+    font-weight: 400;
+    text-align: left;
+}
+
