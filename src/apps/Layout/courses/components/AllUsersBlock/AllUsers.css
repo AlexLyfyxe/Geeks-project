@@ -9,7 +9,7 @@
 }
 
 .allUser {
-    padding: 400px 0 0 0;
+    padding: 235px 0 100px 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -20,6 +20,7 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    padding: 225px 0 124px 0;
 }
 
 .userBlock {
@@ -95,18 +96,53 @@
     color: #2c2e35;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 13px;
+    margin: 13px 0 0 0;
     text-align: left;
     font-family: 'Montserrat';
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .userBlockDuration{
     font-size: 14px;
     font-weight: 300;
     line-height: 17px;
-    margin-top: 8px;
+    margin: 8px 0 0 0;
     padding-bottom: 60px;
     text-align: left;
     font-family: 'Montserrat';
+}
+
+
+
+.userBlockBottom {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+.userBlockText{
+  color: #2c2e35;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  padding: 2px 0px;
+  text-transform: uppercase;
+  transition: all .3s ease-out;
+  margin: 0;
+  font-family: 'Montserrat';
+  z-index: 5;
+}
+
+.userBlockBottom:hover .userBlockText:hover {
+  font-weight: 800;
+  font-size: 14px;
+  transition:1s;
+}
+
+.userBlockArrow {
+  height: 25px;
+  width: 25px;
 }
