@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { NavbarList } from "../../utils/NavbarList";
 import "./Header.css"
+import Arrow from '../header/ic_arrow_forward_48px.svg'
 import Translate from './Translate';
 // import { useTranslation } from 'react-i18next';
-import { Trans } from 'react-i18next';
+
 
 
 const Header = () => {
@@ -13,29 +14,33 @@ const Header = () => {
 
 
     return (
-        <div>
+        <header>
             <div className="container">
-                <div className="navbar">
-                    <Trans i8nKey="header">
-                        <ul i18nIsDynamicList>
-                            {
-                                NavbarList.map(item => (
-
-                                    <li key={item.id} >
-                                        <Link to={item.route}>
-                                            {item.caption}
-                                        </Link>
-
-                                    </li>
-                                ))
-                            }
-                            < Translate />
-                        </ul>
-                    </Trans>
-
+                <div className="contents">
+                    <Link to={'/'}>
+                        <img src="https://geeks.kg/static/media/Logo.857f888619bb2c8fbecc9c3a4c3e4a5f.svg" alt="" />
+                    </Link>
+                    {/*{*/}
+                    <div className="navigation_nav">
+                        {
+                            NavbarList.map(item => (
+                                <nav key={item.id} >
+                                    <Link to={item.route}>
+                                        {item.caption}
+                                    </Link>
+                                </nav>
+                            ))
+                        }
+                    </div>
+                    {/*}*/}
+                    <Translate />
+                    <a className="btn" href="https://geeks.bitrix24site.ru/crm_form_85mqv/">
+                        ЗАПИСАТЬСЯ
+                        <img src={Arrow} alt="" />
+                    </a>
                 </div>
             </div>
-        </div>
+        </header>
     );
 };
 

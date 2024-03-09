@@ -4,8 +4,11 @@ import App from './App';
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./store";
+import "./fonts/Montserrat/stylesheet.css"
+import "./fonts/ReformaGrotesk/stylesheet.css"
+import './firebase'
+import './firebase'
 import { Suspense } from 'react';
-
 import './i18n/i18n'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

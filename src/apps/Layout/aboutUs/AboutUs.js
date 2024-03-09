@@ -1,16 +1,26 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import 'react-redux'
+import Main from './blocks/mainAbout/MainAbout';
+import HistoryAdd from "./blocks/historyAdd/HistoryAdd";
+import OurValues from "./blocks/ourValues/OurValues";
+import WorkBlock from "./blocks/work/WorkBlock";
+import Qualities from "./blocks/Qualities/Qualities";
+// import OurTeam from "./blocks/ourTeam/OurTeam";
 
 
 const AboutUs = () => {
 
-    const { t } = useTranslation();
+
 
     return (
-        <div>
-
-            <h1>{t("header.about_us")}</h1>
-        </div>
+        <>
+            <Main />
+            <HistoryAdd />
+            <OurValues />
+            <WorkBlock />
+            <Qualities />
+            {/*<OurTeam/>*/}
+        </>
     );
 };
 
