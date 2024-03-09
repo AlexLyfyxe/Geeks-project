@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {createUserWithEmailAndPassword, getAuth} from 'firebase/auth';
 import {setEmail, setError, setPassword, setUser} from '../../../store/userSlice';
 import {Link, useNavigate} from "react-router-dom";
-// import FormForLogin from "../../../components/formForLogin/formForLogin";
+
 
 const SignUp = () => {
     const dispatch = useDispatch();
