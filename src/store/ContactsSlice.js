@@ -30,7 +30,7 @@ const initialState = {
 initialState.selectedCity = initialState.contacts[0];
 
 const ContactsSlice = createSlice({
-    name: 'ContactsReducer',
+    name: 'contactsReducer',
     initialState,
     reducers: {
         selectCity: (state, action) => {

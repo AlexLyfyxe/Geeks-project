@@ -10,9 +10,9 @@
 .title {
     font-family: var(--root-font-grotesk);
     color: var(--primary-color);
-    font-size: 41.15px;
+    font-size: 70px;
     font-weight: 800;
-    line-height: 77px;
+    line-height: 110%;
     text-transform: uppercase;
     text-align: left;
 }
@@ -96,6 +96,8 @@
     height: 94.14px;
     width: 94.5px;
     border-radius: 50%;
+    display: grid;
+    place-items: center;
 }
 
 .swiperButtonPrev:hover,

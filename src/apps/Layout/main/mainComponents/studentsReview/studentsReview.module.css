@@ -3,16 +3,21 @@
     position: relative;
 }
 
+.containerTitle {
+    margin-left: 50px;
+}
+
 .title {
-    font-size: 40.61px;
+    font-size: 70px;
     font-weight: 800;
-    line-height: 77px;
+    line-height: 110%;
     text-align: left;
     text-transform: uppercase;
 }
 
 .sliderInner {
     margin-top: 40px;
+    padding-left: calc(50vw - 720px);
     width: 100%;
 }
 
@@ -67,6 +72,8 @@
     height: 94.14px;
     width: 94.5px;
     border-radius: 50%;
+    display: grid;
+    place-items: center;
 }
 
 .swiperButtonPrev:hover,

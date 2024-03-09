@@ -1,31 +1,26 @@
 export const NavbarList = [
     {
         id: 1,
-        caption: "GEEKS",
-        route: "/mainPage"
-    },
-    {
-        id: 2,
         caption: "Курсы",
         route: "/courses"
     },
     {
-        id: 3,
+        id: 2,
         caption: "GEEKS JUNIOR",
         route: "/geeksJunior"
     },
     {
-        id: 4,
+        id: 3,
         caption: "GEEKS PRO",
         route: "/geeksPro"
     },
     {
-        id: 5,
+        id: 4,
         caption: "О нас",
         route: "/aboutUs"
     },
     {
-        id: 6,
+        id: 5,
         caption: "ПРЕИМУЩЕСТВА",
         route: "/advantages"
     },

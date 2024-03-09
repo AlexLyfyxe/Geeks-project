@@ -1,5 +1,5 @@
-export const main = {
-    items: [
+export const mainData = {
+    graduateSlides: [
         {
             id: 1,
             img: 'https://thicc-af.mywaifulist.moe/waifus/kiyotaka-ayanokoji-classroom-of-the-elite/F8ZuqDJpbyBprRJmQ3g7dvL6bdo89QUV4aovJ1Qz.jpg?class=thumbnail',
@@ -25,7 +25,7 @@ export const main = {
             subtitle: 'Бытует мнение, что IT - это чисто мужская сфера, но наша выпускница Алтынай своим примером показывает, что это не так. Начав обучение в мае 2020 года, ей потребовался 1 год чтобы освоить востребованную IT-профессию! Сейчас она работает программистом в проекте американской компании ErgoTech.'
         }
     ],
-    graduateSlides: [
+    workSlides: [
         {
             img: 'https://geeks.kg/back_media/general/2023/06/22/70f89c2a-f32f-4818-a2d5-71c7a2c03c44.webp',
             alt: 'Okai',
@@ -97,27 +97,27 @@ export const main = {
             link: 'https://fanat.kg/'
         }
     ],
-    reviewsSlides: [
-        {
-            src: 'https://www.youtube.com/embed/HyGoRRc5nSs?si=rm25Q9sZwZIWpp73'
-        },
-        {
-            src: 'https://www.youtube.com/embed/zuEPXPMAROg?si=TTEKFwJoueBIyqVS'
-        },
-        {
-            src: 'https://www.youtube.com/embed/UqSiC_qwZGk?si=JT-jgR8HnvuGiRL4'
-        },
-        {
-            src: 'https://www.youtube.com/embed/2Pc6FG0KVns?si=TPIqd_pRYZB5rDg1'
-        },
-        {
-            src: 'https://www.youtube.com/embed/5IErkU9vh6o?si=0QoItGEi4IMfoHOB'
-        },
-        {
-            src: 'https://www.youtube.com/embed/h0KgZvzuTB0?si=T1SbKZYwo6MZI3oI'
-        },
-        {
-            src: 'https://www.youtube.com/embed/0uIqeYrJWsY?si=ZwgBZ07Km_xHo8ow'
-        }
-    ],
+        reviewsSlides: [
+            {
+                src: 'https://www.youtube.com/embed/HyGoRRc5nSs?si=rm25Q9sZwZIWpp73'
+            },
+            {
+                src: 'https://www.youtube.com/embed/zuEPXPMAROg?si=TTEKFwJoueBIyqVS'
+            },
+            {
+                src: 'https://www.youtube.com/embed/UqSiC_qwZGk?si=JT-jgR8HnvuGiRL4'
+            },
+            {
+                src: 'https://www.youtube.com/embed/2Pc6FG0KVns?si=TPIqd_pRYZB5rDg1'
+            },
+            {
+                src: 'https://www.youtube.com/embed/5IErkU9vh6o?si=0QoItGEi4IMfoHOB'
+            },
+            {
+                src: 'https://www.youtube.com/embed/h0KgZvzuTB0?si=T1SbKZYwo6MZI3oI'
+            },
+            {
+                src: 'https://www.youtube.com/embed/0uIqeYrJWsY?si=ZwgBZ07Km_xHo8ow'
+            }
+        ],
 }

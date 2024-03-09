@@ -1,7 +1,12 @@
 import React from "react";
+<<<<<<< HEAD:src/apps/Layout/aboutUs/blocks/mainAbout/MainAbout.jsx
 import { motion } from "framer-motion";
 // import '../main/main.css'
 import '../mainAbout/mainAbout.css'
+=======
+import {motion} from "framer-motion";
+import './mainAbout.css'
+>>>>>>> 54789e88684d22001bf3eb3581674880514373ae:src/apps/Layout/aboutUs/blocks/mainAbout/MainAboutUp.jsx
 
 const TextAnimation = {
     hidden: {
@@ -21,7 +26,7 @@ const TextAnimation = {
     },
 };
 
-export const Main = () => {
+export const MainAboutUp = () => {
     return (
         <motion.section
             className="main"
@@ -41,4 +46,4 @@ export const Main = () => {
         </motion.section>
     )
 }
-export default Main
+export default MainAboutUp

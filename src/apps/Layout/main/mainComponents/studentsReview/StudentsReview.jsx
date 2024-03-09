@@ -7,16 +7,17 @@ import { ReactComponent as BlackArrowRight } from '../icons/blackArrowRight.svg'
 import { ReactComponent as BlackArrowLeft } from '../icons/blackArrowLeft.svg';
 
 
-
 function ReviewSlider({ slides }) {
     return (
         <div className={classes.sliderContainer}>
-            <p className={classes.title}>Отзывы студентов</p>
+            <div className={classes.containerTitle}>
+                <p className={classes.title}>Отзывы студентов</p>
+            </div>
             <div className={classes.sliderInner}>
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={40}
-                    slidesPerView={3}
+                    slidesPerView={2.98616}
                     navigation={{
                         nextEl: `.${classes.swiperButtonNext}`,
                         prevEl: `.${classes.swiperButtonPrev}`
