@@ -31,9 +31,9 @@ const Header = () => {
                                 </nav>
                             ))
                         }
+                        <Translate />
                     </div>
                     {/*}*/}
-                    <Translate />
                     <a className="btn" href="https://geeks.bitrix24site.ru/crm_form_85mqv/">
                         ЗАПИСАТЬСЯ
                         <img src={Arrow} alt="" />
