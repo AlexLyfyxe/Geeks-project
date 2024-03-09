@@ -1,31 +1,31 @@
-import React, { useState } from 'react';
-import { useDispatch } from "react-redux";
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import React, {useState} from 'react';
+import {useDispatch, useSelector} from "react-redux";
+import {getAuth, signInWithEmailAndPassword} from "firebase/auth";
 import {Link, useNavigate} from 'react-router-dom';
 import '../styles/SigInStyle.css'
+import {setEmail, setError, setPassword} from "../../../store/userSlice";
 
 const SignIn = () => {
-    const [email, setEmail] = useState('');
-    const [pass, setPass] = useState('');
-    const [error, setError] = useState('');
+    const {email, password, error} = useSelector(state => state.userSlice);
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
-    const handleLogin = (email, password) => {
+    const handleLogin = () => {
         const auth = getAuth();
 
         signInWithEmailAndPassword(auth, email, password)
-            .then(({ user }) => {
-                console.log(user);
-                setEmail('')
-                setPass('')
-                setError('')
+            .then((userCredential) => {
+                const user = userCredential.user;
+                dispatch(setEmail(''));
+                dispatch(setPassword(''));
+                dispatch(setError(''));
                 navigate('/mainPage');
             })
-            .catch((error) => {
-                setError('неправильный логин или пароль')
+            .catch(error => {
+                dispatch(setError(error.message));
             });
     }
+
 
     return (
         <div className="form-container">
@@ -33,21 +33,22 @@ const SignIn = () => {
             <input
                 type="email"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={(e) => dispatch(setEmail(e.target.value))}
                 placeholder="Email"
                 className="input-field"
             />
             <input
                 type="password"
-                value={pass}
-                onChange={(e) => setPass(e.target.value)}
+                value={password}
+                onChange={(e) => dispatch(setPassword(e.target.value))}
                 placeholder="Password"
                 className="input-field"
             />
 
-            <button onClick={() => handleLogin(email, pass)} className="submit-button">
+            <button onClick={handleLogin} className="submit-button">
                 Log in
             </button>
+
             <Link to="/auth/register" style={{color: 'yellow'}}>Нет аккаунта?/Зарегистрироваться</Link>
             {
                 error &&
