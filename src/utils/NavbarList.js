@@ -2,7 +2,7 @@ export const NavbarList = [
     {
         id: 1,
         caption: "GEEKS",
-        route: "/mainPage"
+        route: "/"
     },
     {
         id: 2,
@@ -29,4 +29,9 @@ export const NavbarList = [
         caption: "ПРЕИМУЩЕСТВА",
         route: "/advantages"
     },
+    {
+        id: 7,
+        caption: "Войти",
+        route: "/auth/login"
+    }
 ]

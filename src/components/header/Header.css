@@ -18,7 +18,7 @@ body{
 .navbar ul {
     display: flex;
     list-style: none;
-    gap: 50px;
+    gap: 40px;
 }
 
 .navbar ul li a {

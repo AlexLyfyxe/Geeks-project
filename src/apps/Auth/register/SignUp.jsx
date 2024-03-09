@@ -3,6 +3,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {createUserWithEmailAndPassword, getAuth} from 'firebase/auth';
 import {setEmail, setError, setPassword, setUser} from '../../../store/userSlice';
 import {Link, useNavigate} from "react-router-dom";
+// import FormForLogin from "../../../components/formForLogin/formForLogin";
 
 const SignUp = () => {
     const dispatch = useDispatch();
@@ -37,6 +38,7 @@ const SignUp = () => {
 
     return (
         <div className="form-container">
+            <h1>зарегистрироваться</h1>
             <input
                 type="email"
                 value={email}
@@ -59,6 +61,7 @@ const SignUp = () => {
             <Link to="/auth/login" style={{color: 'yellow'}}>есть аккаунт? / войти</Link>
             {error && <p style={{color: 'red'}}>{error}</p>}
         </div>
+
     );
 };
 

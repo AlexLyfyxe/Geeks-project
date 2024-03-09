@@ -14,12 +14,11 @@ const SignIn = () => {
         const auth = getAuth();
 
         signInWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                const user = userCredential.user;
+            .then(() => {
                 dispatch(setEmail(''));
                 dispatch(setPassword(''));
                 dispatch(setError(''));
-                navigate('/mainPage');
+                navigate('/');
             })
             .catch(error => {
                 dispatch(setError(error.message));
