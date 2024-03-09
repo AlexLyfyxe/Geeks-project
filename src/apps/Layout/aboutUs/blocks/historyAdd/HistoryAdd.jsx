@@ -1,70 +1,54 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Content from "./contentHistory.json";
-import '../historyAdd/historyAddStyle.css'
+import '../historyAdd/historyAddStyle.css'; // Assuming this is still needed
 
 const TextAnimation = {
-    hidden: {
-        y: 120,
-        opacity: 0,
+  hidden: {
+    y: 120,
+    opacity: 0,
+  },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.7,
+      ease: "easeInOut",
+      delayChildren: 0.3,
+      staggerChildren: 0.2,
     },
-    visible: {
-        y: 0,
-        opacity: 1,
-        transition: {
-            duration: 0.7,
-            ease: "easeInOut",
-            delayChildren: 0.3,
-            staggerChildren: 0.2,
-            repeat: 0,
-        }
-    },
+  },
 };
 
 const HistoryAddBlock = ({ item }) => (
-    <div key={item.id}>
-        {item.content && (
-            <motion.div
-                variants={TextAnimation}
-                className={item.name}>
-                <p>{item.content}</p>
-            </motion.div>
-        )}
-        {item.image && (
-            <motion.div
-                variants={TextAnimation}
-                className={item.name}>
-                <img src={item.image} alt="" />
-            </motion.div>
-        )}
-    </div>
+  <motion.div key={item.id} variants={TextAnimation} className={item.name}>
+    {item.content && <p>{item.content}</p>}
+    {item.image && <img src={item.image} alt="" />}
+  </motion.div>
 );
 
-export const HistoryAdd = () => {
+const HistoryAdd = () => {
+  const filteredContent = Content.filter((item) => item.content || item.image);
 
-    const filterContent = Content.filter(
-        (item) => item.content || item.image
-    );
-
-    return (
-        <motion.section
-            className="history"
-            initial="hidden"
-            whileInView="visible"
-            variants={TextAnimation}
-        >
-            <div className="container">
-                <div className="history__contents">
-                    <motion.h2 variants={TextAnimation}>ИСТОРИЯ СОЗДАНИЯ</motion.h2>
-                    <div className="content">
-                        {Content.map((item) => (
-                            <HistoryAddBlock key={item} item={item}/>
-                        ))}
-                    </div>
-                </div>
-            </div>
-        </motion.section>
-    );
+  return (
+    <motion.section
+      className="history"
+      initial="hidden"
+      whileInView="visible"
+      variants={TextAnimation}
+    >
+      <div className="container">
+        <div className="history__contents">
+          <motion.h2 variants={TextAnimation}>ИСТОРИЯ СОЗДАНИЯ</motion.h2>
+          <div className="content">
+            {filteredContent.map((item) => (
+              <HistoryAddBlock key={item.id} item={item} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </motion.section>
+  );
 };
 
 export default HistoryAdd;

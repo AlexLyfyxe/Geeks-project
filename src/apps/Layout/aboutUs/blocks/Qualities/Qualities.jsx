@@ -1,13 +1,14 @@
 import React from 'react';
-import QualitiesJson from './Qualities,.json';  // Corrected the import path
+import QualitiesJson from './Qualities,.json';
 import './Qualities.css';
 
 
 
 const QualitiesJsonItem = ({ qualities }) => (
-    <div key={qualities.id}>
+    <div key={qualities.id}
+    className='content'>
         <h3>{qualities.id}</h3>
-        <div>
+        <div className='p'>
             <h4>{qualities.titleQualities}</h4>
             <p>{qualities.contentQualities}</p>
         </div>
@@ -20,9 +21,11 @@ const Qualities = () => {
             <div className="container">
                 <div className="Qualities__content">
                     <h2>Your Heading</h2>
-                    {QualitiesJson.map((qualities) => (
-                        <QualitiesJsonItem key={qualities.id} qualities={qualities} />
-                    ))}
+                    <div className="contents">
+                        {QualitiesJson.map((qualities) => (
+                            <QualitiesJsonItem key={qualities.id} qualities={qualities} />
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>
