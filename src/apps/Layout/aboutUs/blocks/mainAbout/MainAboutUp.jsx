@@ -1,6 +1,6 @@
 import React from "react";
 import {motion} from "framer-motion";
-import '../main/main.css'
+import './mainAbout.css'
 
 const TextAnimation = {
     hidden: {
@@ -20,7 +20,7 @@ const TextAnimation = {
     },
 };
 
-export const Main = () => {
+export const MainAboutUp = () => {
     return (
         <motion.section
             className="main"
@@ -40,4 +40,4 @@ export const Main = () => {
         </motion.section>
     )
 }
-export default Main
+export default MainAboutUp
