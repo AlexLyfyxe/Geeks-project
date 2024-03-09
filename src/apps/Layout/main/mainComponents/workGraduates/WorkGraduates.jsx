@@ -18,7 +18,7 @@ function WorkSlider({ slides }) {
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={20}
-                    slidesPerView={2.545}
+                    slidesPerView={2.69}
                     navigation={{
                     nextEl: `.${classes.swiperButtonNext}`,
                     prevEl: `.${classes.swiperButtonPrev}`
@@ -28,26 +28,26 @@ function WorkSlider({ slides }) {
                 >
                     {slides.map((slide, index) => (
                     <SwiperSlide key={index}>
-                        <div className={classes.workSlide}>
-                        <img
-                            src={slide.img}
-                            alt={slide.alt}
-                            className={classes.workImg}
-                        />
-                        <div className={classes.workInfo}>
-                            <p className={classes.workTitle}>{slide.title}</p>
-                            <p className={classes.workSubtitle}>{slide.subtitle}</p>
-                        </div>
-                        <button className={classes.linkBtn}>
-                            <a 
-                            href={slide.link} 
-                            target='_blank' 
-                            className={classes.link}
-                            >
-                            Перейти
-                            <BlackArrowRight/>
-                            </a>
-                        </button>
+                        <div>
+                            <img
+                                src={slide.img}
+                                alt={slide.alt}
+                                className={classes.workImg}
+                            />
+                            <div className={classes.workInfo}>
+                                <p className={classes.workTitle}>{slide.title}</p>
+                                <p className={classes.workSubtitle}>{slide.subtitle}</p>
+                            </div>
+                            <button className={classes.linkBtn}>
+                                <a 
+                                href={slide.link} 
+                                target='_blank' 
+                                className={classes.link}
+                                >
+                                Перейти
+                                <BlackArrowRight/>
+                                </a>
+                            </button>
                         </div>
                     </SwiperSlide>
                     ))}

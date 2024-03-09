@@ -1,3 +1,4 @@
+
 .mainContainer {
     margin: 0 auto;
     width: 100%;
@@ -9,7 +10,7 @@ p {
     font-family: var(--root-font-grotesk);
     font-size: 16px;
     font-weight: 600;
-    line-height: 21px;
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -34,14 +35,16 @@ a, a:hover, a:visited {
 
 /* centerMain */
 
+
 .centerTitle {
-    font-size: 35.63px;
-    line-height: 66px;
+    font-size: 60px;
+    line-height: 110%;
     text-transform: uppercase;
 }
 
 .centerSubtitle {
-    width: 820px;
+    width: 804px;
+    font-family: var(--root-font-montserrat);
     margin: 20px 0 32px;
     font-size: 14px;
     font-weight: 400;
@@ -62,6 +65,7 @@ a, a:hover, a:visited {
     object-fit: cover;
     width: 100%;
 }
+
 
 .upperImg::after {
     background: linear-gradient(180deg,hsla(0,0%,6%,0) 44.28%,#141414 98.69%);
@@ -105,7 +109,7 @@ a, a:hover, a:visited {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    min-width: 64px;
+    width: 240px;
     padding: 12px 24px;
     transition: .3s ease-out;
     background-color: var(--root-color-yellow);
@@ -120,21 +124,6 @@ a, a:hover, a:visited {
 .studentGraduates {
     background: var(--root-color-yellow);
     padding: 100px 0 82px;
-}
-
-.studentTitle {
-    font-family: var(--root-font-grotesk);
-    color: var(--primary-color);
-    font-size: 41.02px;
-    line-height: 77px;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-.infoBlock {
-    width: 100%;
-    display: flex;
-    position: relative;
 }
 
 
@@ -159,14 +148,6 @@ a, a:hover, a:visited {
     width: 100%;
 }
 
-.reviewTitle {
-    font-size: 40.61px;
-    font-weight: 800;
-    line-height: 77px;
-    text-align: left;
-    text-transform: uppercase;
-}
-
 
 /* completeTest */
 
@@ -180,8 +161,8 @@ a, a:hover, a:visited {
 }
 
 .testTitle {
-    font-size: 41.15px;
-    line-height: 70px;
+    font-size: 70px;
+    line-height: 110%;
     text-align: left;
     text-transform: uppercase;
 }
