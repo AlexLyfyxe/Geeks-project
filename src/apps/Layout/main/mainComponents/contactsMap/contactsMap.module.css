@@ -34,8 +34,8 @@
     font-weight: 600;
     font-size: 20px;
     height: 44px;
-    min-width: 64px;
     padding: 6px 8px;
+    width: 21%;
     border-radius: 100px;
     transition: .3s ease-out;
     background-color: transparent;

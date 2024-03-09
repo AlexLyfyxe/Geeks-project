@@ -7,8 +7,8 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import { selectCity } from '../../../../../store/ContactsSlice';
 
 
-const ContactsBox = () => {
-    const { contacts, selectedCity } = useSelector(state => state.ContactsReducer)
+export const ContactsBox = () => {
+    const { contacts, selectedCity } = useSelector(state => state.contactsReducer)
     const dispatch = useDispatch()
 
     const [activeItem, setActiveItem] = useState(0)
@@ -31,7 +31,7 @@ const ContactsBox = () => {
                         {item.name}
                     </button>
                 ))}
-            </div>    
+            </div>
                 {selectedCity && (
                     <div className={classes.infoWrapper}>
                         <span className={classes.title}>Номер телефона</span>
@@ -73,11 +73,9 @@ const ContactsBox = () => {
     )
 }
 
-export {ContactsBox}
+export const Mapbox = () => {
 
-const Mapbox = () => {
-
-    const selectedCity = useSelector(state => state.ContactsReducer.selectedCity)
+    const selectedCity = useSelector(state => state.contactsReducer.selectedCity)
 
     mapboxgl.accessToken = 'pk.eyJ1Ijoib25lbHlndXkiLCJhIjoiY2x0Ymo4bjgzMDM0ZzJqbnRtamtld2IyZSJ9.EEfQjHkmKYRC-7ghWV5iRg'
 
@@ -116,5 +114,3 @@ const Mapbox = () => {
         </div>
     )
 }
-
-export {Mapbox}
