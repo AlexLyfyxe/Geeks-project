@@ -1,10 +1,5 @@
 import React from 'react';
-// import 'react-redux'
-// import MainAboutUp from '../mainAbout/MainAboutUp';
-// import HistoryAdd from '../historyAdd/HistoryAdd'
-// import OurValues from "../ourValues/OurValues";
-// import WorkBlock from "../work/WorkBlock";
-// import Qualities from "../Qualities/Qualities";
+import 'react-redux'
 import Qualities from "./blocks/Qualities/Qualities";
 import WorkBlock from "./blocks/work/WorkBlock";
 import OurValues from "./blocks/ourValues/OurValues";
@@ -13,13 +8,16 @@ import HistoryAdd from "./blocks/historyAdd/HistoryAdd";
 
 
 const AboutUs = () => {
+
+
+
     return (
         <>
             {/* <MainAboutUp/> */}
-            <HistoryAdd/>
-            <OurValues/>
-            <WorkBlock/>
-            <Qualities/>
+            <HistoryAdd />
+            <OurValues />
+            <WorkBlock />
+            <Qualities />
             {/*<OurTeam/>*/}
         </>
     );

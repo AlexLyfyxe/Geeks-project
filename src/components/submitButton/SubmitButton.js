@@ -1,10 +1,14 @@
 import React from 'react';
 
-const SubmitButton = ( {caption} ) => {
+const SubmitButton = ({ caption }) => {
+
     return (
-        <button type="submit" >
-            {caption}
-        </button>
+        <>
+            <button type="submit" >
+                {caption}
+            </button>
+        </>
+
     );
 };
 
