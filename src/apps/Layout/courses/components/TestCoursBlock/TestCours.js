@@ -5,6 +5,7 @@ import "./TestCours.css"
 import '../TitleCours/fonts/style.css';
 import "../AllUsersBlock/fonts/style.css"
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 function TestCours() {
 
@@ -24,15 +25,16 @@ function TestCours() {
         })
     }
 
+    const { t } = useTranslation();
 
     return (
         <Container className="conteiner" fluid>
             <motion.Row className="TestCoursBlock" initial="hidden" whileInView="visible" viewport={{ amount: 0.1 }}>
                 <Col sm={7} className="TestCoursBlockLeft">
 
-                    <motion.h2 custom={1} variants={textAnimation} className="TestCoursBlockTitle">ПРОЙДИТЕ ТЕСТ ЧТОБЫ ОПРЕДЕЛИТЬСЯ С НАПРАВЛЕНИЕМ</motion.h2>
+                    <motion.h2 custom={1} variants={textAnimation} className="TestCoursBlockTitle">{t("courses.cours_block_test_title")}</motion.h2>
                     <motion.Button custom={2} variants={textAnimation} onClick={redirect} className="TestCoursBlockButton">
-                        <span className="TestCoursBlockButtonText">ПРОЙТИ ТЕСТ</span>
+                        <span className="TestCoursBlockButtonText">{t("courses.cours_block_test_button")}</span>
                         <svg className="arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>

@@ -5,6 +5,8 @@ import './TitleCourse.css';
 import '../TitleCours/fonts/style.css';
 import "../AllUsersBlock/fonts/style.css";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
+
 
 function TitleCours() {
 
@@ -20,6 +22,8 @@ function TitleCours() {
         })
     }
 
+    const { t } = useTranslation();
+
     return (
         <Container className='conteiner' fluid>
 
@@ -27,9 +31,9 @@ function TitleCours() {
                 <Col className='titleBlockCol'>
                     <motion.hr />
                     <motion.h1 custom={1} variants={textAnimation}
-                        className='titleCours'>САМЫЕ ВОСТРЕБОВАННЫЕ IT- КУРСЫ <span className='titleCoursIn'> В КЫРГЫЗСТАНЕ</span></motion.h1>
+                        className='titleCours'>{t('courses.cours_block_title')}<span className='titleCoursIn'> {t('courses.cours_block_title_end')}</span></motion.h1>
                     <motion.p custom={2} variants={textAnimation}
-                        className='postTitleCours'>Мы постоянно исследуем рынок труда в поиске самых популярных и перспективных IT-направлений</motion.p>
+                        className='postTitleCours'>{t('courses.cours_block_post_title')}</motion.p>
                 </Col>
             </motion.Row>
 
@@ -37,13 +41,13 @@ function TitleCours() {
             <motion.Row initial="hidden" whileInView="visible" viewport={{ amount: 0.1 }} className='showContent'>
                 <Col xs={12} className='showBlock'>
                     {[...Array(15)].map((index) => (
-                        <motion.p custom={3} variants={textAnimation} key={index} className="showTextCours">IT КУРСЫ</motion.p>
+                        <motion.p custom={3} variants={textAnimation} key={index} className="showTextCours">{t("courses.cours_block_animation_text")}</motion.p>
                     ))}
                 </Col>
 
                 <Col xs={12} md={8} className='showBlock'>
                     {[...Array(15)].map((index) => (
-                        <motion.p custom={4} variants={textAnimation} key={index} className="showTextCoursBottom">IT КУРСЫ</motion.p>
+                        <motion.p custom={4} variants={textAnimation} key={index} className="showTextCoursBottom">{t("courses.cours_block_animation_text")}</motion.p>
                     ))}
                 </Col>
 
