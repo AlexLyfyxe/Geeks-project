@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('ReformaGroteskBold.eot');
+    src: url('ReformaGroteskBold.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskBold.woff2') format('woff2'),
+        url('ReformaGroteskBold.woff') format('woff'),
+        url('ReformaGroteskBold.ttf') format('truetype'),
+        url('ReformaGroteskBold.svg#ReformaGroteskBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('ReformaGroteskBold_1.eot');
+    src: url('ReformaGroteskBold_1.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskBold_1.woff2') format('woff2'),
+        url('ReformaGroteskBold_1.woff') format('woff'),
+        url('ReformaGroteskBold_1.ttf') format('truetype'),
+        url('ReformaGroteskBold_1.svg#ReformaGroteskBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('ReformaGroteskBold_2.eot');
+    src: url('ReformaGroteskBold_2.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskBold_2.woff2') format('woff2'),
+        url('ReformaGroteskBold_2.woff') format('woff'),
+        url('ReformaGroteskBold_2.ttf') format('truetype'),
+        url('ReformaGroteskBold_2.svg#ReformaGroteskBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk Demi';
+    src: url('ReformaGroteskDemi.eot');
+    src: url('ReformaGroteskDemi.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskDemi.woff2') format('woff2'),
+        url('ReformaGroteskDemi.woff') format('woff'),
+        url('ReformaGroteskDemi.ttf') format('truetype'),
+        url('ReformaGroteskDemi.svg#ReformaGroteskDemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk Demi';
+    src: url('ReformaGroteskDemi_1.eot');
+    src: url('ReformaGroteskDemi_1.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskDemi_1.woff2') format('woff2'),
+        url('ReformaGroteskDemi_1.woff') format('woff'),
+        url('ReformaGroteskDemi_1.ttf') format('truetype'),
+        url('ReformaGroteskDemi_1.svg#ReformaGroteskDemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk Demi';
+    src: url('ReformaGroteskDemi_2.eot');
+    src: url('ReformaGroteskDemi_2.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskDemi_2.woff2') format('woff2'),
+        url('ReformaGroteskDemi_2.woff') format('woff'),
+        url('ReformaGroteskDemi_2.ttf') format('truetype'),
+        url('ReformaGroteskDemi_2.svg#ReformaGroteskDemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('ReformaGroteskLight.eot');
+    src: url('ReformaGroteskLight.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskLight.woff2') format('woff2'),
+        url('ReformaGroteskLight.woff') format('woff'),
+        url('ReformaGroteskLight.ttf') format('truetype'),
+        url('ReformaGroteskLight.svg#ReformaGroteskLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('ReformaGroteskLight_1.eot');
+    src: url('ReformaGroteskLight_1.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskLight_1.woff2') format('woff2'),
+        url('ReformaGroteskLight_1.woff') format('woff'),
+        url('ReformaGroteskLight_1.ttf') format('truetype'),
+        url('ReformaGroteskLight_1.svg#ReformaGroteskLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('ReformaGroteskLight_2.eot');
+    src: url('ReformaGroteskLight_2.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskLight_2.woff2') format('woff2'),
+        url('ReformaGroteskLight_2.woff') format('woff'),
+        url('ReformaGroteskLight_2.ttf') format('truetype'),
+        url('ReformaGroteskLight_2.svg#ReformaGroteskLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('ReformaGroteskMedium.eot');
+    src: url('ReformaGroteskMedium.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskMedium.woff2') format('woff2'),
+        url('ReformaGroteskMedium.woff') format('woff'),
+        url('ReformaGroteskMedium.ttf') format('truetype'),
+        url('ReformaGroteskMedium.svg#ReformaGroteskMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('ReformaGroteskMedium_1.eot');
+    src: url('ReformaGroteskMedium_1.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskMedium_1.woff2') format('woff2'),
+        url('ReformaGroteskMedium_1.woff') format('woff'),
+        url('ReformaGroteskMedium_1.ttf') format('truetype'),
+        url('ReformaGroteskMedium_1.svg#ReformaGroteskMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('ReformaGroteskMedium_2.eot');
+    src: url('ReformaGroteskMedium_2.eot?#iefix') format('embedded-opentype'),
+        url('ReformaGroteskMedium_2.woff2') format('woff2'),
+        url('ReformaGroteskMedium_2.woff') format('woff'),
+        url('ReformaGroteskMedium_2.ttf') format('truetype'),
+        url('ReformaGroteskMedium_2.svg#ReformaGroteskMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

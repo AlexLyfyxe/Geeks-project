@@ -1,8 +1,9 @@
-import {Route, Routes, Navigate} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import AuthRoutes from "./pages/AuthRoutes/AuthRoutes";
 import LayoutRoutes from "./pages/LayoutRoutes/LayoutRoutes";
 import Header from "./components/header/Header";
 import * as LayoutPages from "./apps/Layout";
+
 
 function App() {
     return (

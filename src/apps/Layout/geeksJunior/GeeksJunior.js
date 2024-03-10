@@ -1,9 +1,13 @@
-import React from 'react';
+// import React from 'react';
+import MissionAndValues from './mission/Mission';
+import GeeksTeachers from './teachers/GeeksTeachers';
+
 
 const GeeksJunior = () => {
     return (
         <div>
-            <h1>Geeks Junior</h1>
+            <GeeksTeachers/>
+            <MissionAndValues/>
         </div>
     );
 };

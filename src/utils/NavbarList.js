@@ -10,17 +10,17 @@ export const NavbarList = [
         route: "/courses"
     },
     {
-        id: 3,
+        id: 2,
         caption: "GEEKS JUNIOR",
         route: "/geeksJunior"
     },
     {
-        id: 4,
+        id: 3,
         caption: "GEEKS PRO",
         route: "/geeksPro"
     },
     {
-        id: 5,
+        id: 4,
         caption: "О нас",
         route: "/aboutUs"
     },

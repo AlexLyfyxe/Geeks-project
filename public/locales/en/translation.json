@@ -1,0 +1,127 @@
+{
+    "text": "Some text",
+    "header.about_us": "About us",
+    "content.advantages.text_h1": "Advantages",
+    "content.courses.text_h1": "Courses",
+    "sign_up": "SING UP",
+    "header": {
+        "text_1": "Courses",
+        "text_2": "GEEKS JUNIOR",
+        "text_3": "GEEKS PRO",
+        "text_4": "About Us",
+        "text_5": "Advantages"
+    },
+    "courses": {
+        "cours_block_title": "THE MOST POPULAR IT COURSES",
+        "cours_block_title_end": "IN KYRGYZSTAN",
+        "cours_block_post_title": "We are constantly exploring the labor market in search of the most popular and promising IT areas",
+        "cours_block_animation_text": "IT COURSES",
+        "cours_block_test_title": "TAKE THE TEST TO DETERMINE THE DIRECTION",
+        "cours_block_test_button": "TAKE THE TEST"
+    },
+    "all_causes_1": {
+        "start_date": "Start: 02/29/2024",
+        "title": "SOFTWARE TESTER",
+        "description": "Become a software tester from scratch in 3 months and get access to an internship + employment assistance!",
+        "duration": "Duration: 3 months",
+        "buttom": "More details"
+    },
+    "all_causes_2": {
+        "start_date": "Start: 02/20/2024",
+        "title": "PROJECT MANAGER",
+        "description": "Become a Project Manager from scratch in 2 months! Get access to an internship and employment assistance!",
+        "duration": "Duration: 2 months",
+        "buttom": "More details"
+    },
+    "all_causes_3": {
+        "start_date": "Start: 02/28/2024",
+        "title": "FULLSTACK DEVELOPER",
+        "description": "Become a Fullstack developer from scratch in 10 months and get access to an internship + employment assistance!",
+        "duration": "Duration: 10 months",
+        "buttom": "More details"
+    },
+    "all_causes_4": {
+        "start_date": "Start: 02/29/2024",
+        "title": "UX/UI DESIGNER",
+        "description": "Become a UX/UI designer from scratch in 3 months and get access to an internship + employment assistance!",
+        "duration": "Duration: 3 months",
+        "buttom": "More details"
+    },
+    "all_causes_5": {
+        "start_date": "Start: 02/05/2024",
+        "title": "BASICS OF PROGRAMMING",
+        "description": "Learn the basics of programming in 1 month and get the maximum discount on basic courses!",
+        "duration": "Duration: 1 month",
+        "buttom": "Learn more"
+    },
+    "all_causes_6": {
+        "start_date": "Start: 02/01/2024",
+        "title": "ANDROID DEVELOPER",
+        "description": "Become an Android developer from scratch in 7 months and get access to an internship + employment assistance!",
+        "duration": "Duration: 7 months",
+        "buttom": "More details"
+    },
+    "all_causes_7": {
+        "start_date": "Start: 02/28/2024",
+        "title": "BACKEND DEVELOPER",
+        "description": "Become a Backend developer from scratch in 5 months and get access to an internship + employment assistance!",
+        "duration": "Duration: 5 months",
+        "buttom": "More details"
+    },
+    "all_causes_8": {
+        "start_date": "Start: 02/28/2024",
+        "title": "FRONTEND DEVELOPER",
+        "description": "Become a Frontend developer from scratch in 5 months and get access to an internship + employment assistance!",
+        "duration": "Duration: 5 months",
+        "buttom": "More details"
+    },
+    "all_causes_9": {
+        "start_date": "Start: 02/13/2024",
+        "title": "PROGRAMMING FOR CHILDREN",
+        "description": "Enroll in courses that your child will learn 3D modeling, the basics of Python and Lua, and also improve English!",
+        "duration": "Duration: 3 months",
+        "buttom": "More details"
+    },
+    "all_causes_10": {
+        "start_date": "Start: 03/14/2024",
+        "title": "iOS DEVELOPER",
+        "description": "Become an iOS developer from scratch in 7 months and get access to an internship + employment assistance!",
+        "duration": "Duration: 7 months",
+        "buttom": "More details"
+    },
+    "geeks_pro_1": {
+        "first_p": "WHO CAN TRAIN AT GEEKS PRO?",
+        "second_p": "Geeks Pro provides internship opportunities for both Geeks graduates and other educational centers, courses and universities."
+    },
+    "geeks_pro_2": {
+        "first_p": "HOW DO I GET TO US?",
+        "second_p": "To enroll in the internship program, you need to pass a qualifying test. Please fill out the form and leave a request."
+    },
+    "geeks_pro_3": {
+        "first_p": "WHAT IS THE GEEKS PRO CAREER CENTER?",
+        "second_p": "The Geeks Pro Career Center provides graduates of Geeks and other educational institutions with the opportunity to complete an internship program to improve their skills. The program includes teamwork on commercial projects, workshops on soft and hard skills, employment assistance and much more."
+    },
+    "geeks_companies_text": "our partners",
+    "quest_title": "WHY GEEKS PRO?",
+    "table": {
+        "table_text_1": "TRAININGS AND MASTER CLASSES",
+        "table_text_2": "PROFESSIONAL DEVELOPMENT",
+        "table_text_3": "TEAMWORK",
+        "table_text_4": "EMPLOYMENT OPPORTUNITY",
+        "table_text_5": "ONLINE JOB OPPORTUNITY",
+        "table_text_6": "WORKING ON REAL PROJECTS",
+        "table_text_7": "SECURING HARD SKILLS"
+    },
+    "geeks_pro_title": "STUDY IT AND BECOME AN EXPERT IN YOUR FIELD",
+    "geeks_pro_post_title": "IN THE BANK",
+    "geeks_pro_post_title_num": "RESUME",
+    "geeks_pro_btn": "LOG IN TO THE RESUME BANK",
+    "geeks_pro_text_post_number_1": "employed students",
+    "geeks_pro_text_post_number_2": "graduates are undergoing an internship",
+    "geeks_pro_text_post_number_3": "graduates have completed an internship",
+    "geeks_pro_text_post_number_4": "companies have entered into a partnership agreement with us",
+    "geeks_pro_modal_title": "resume bank",
+    "login": "Login",
+    "password": "Password",
+    "enter": "log in"
+}

@@ -1,7 +1,7 @@
 import React from 'react';
-import {Route, Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+
 import * as LayoutPages from "../../apps/Layout/index"
-import GeeksJunior from "../../apps/Layout/geeksJunior/GeeksJunior";
 
 const LayoutRoutes = () => {
     return (
