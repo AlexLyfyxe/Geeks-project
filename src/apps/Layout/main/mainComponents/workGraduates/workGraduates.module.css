@@ -88,7 +88,7 @@
     display: flex;
     column-gap: 24px;
 }
-
+/* 
 .swiperButtonPrev,
 .swiperButtonNext {
     background: var(--primary-color);
@@ -103,7 +103,7 @@
 .swiperButtonPrev:hover,
 .swiperButtonNext:hover {
     background: linear-gradient(0deg, hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), var(--primary-color);
-}
+} */
 
 .buttonArrangement {
     position: absolute;

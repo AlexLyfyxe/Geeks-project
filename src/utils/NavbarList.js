@@ -1,4 +1,5 @@
 export const NavbarList = [
+  
     {
         id: 1,
         caption: "Курсы",
@@ -19,8 +20,9 @@ export const NavbarList = [
         caption: "О нас",
         route: "/aboutUs"
     },
+    
     {
-        id: 7,
+        id: 5,
         caption: "Войти",
         route: "/auth/login"
     }

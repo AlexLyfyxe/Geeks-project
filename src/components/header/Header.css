@@ -35,13 +35,11 @@ header {
 
 nav {
     display: flex;
-    align-items: center;
+    list-style: none;
+    gap: 40px;
 }
-nav a {
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
+
+.navbar ul li a {
     text-decoration: none;
    
 }
@@ -88,4 +86,6 @@ nav a:hover {
     padding: 5px 10px;
   }
 
-  
+  a {
+    color: white;
+  }

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../images/geeksLogo.svg";
+// import logo from "../images/geeksLogo.svg";
 import SignUp from "./SignUp";
 import "../styles/loginStyle.css"
 const Register = () => {
