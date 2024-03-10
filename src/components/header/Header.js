@@ -27,7 +27,7 @@ const Header = () => {
                                 <nav key={item.id} >
                                     <Link to={item.route}>
                                         {/* {item.caption} */}
-                                        <Trans i18nKey={`header.text_${index + 1}`}>{t(`header.${item.caption})`)}</Trans>
+                                        <Trans i18nKey={`header.text_${index + 1}`}>{t(`${item.caption}`)}</Trans>
                                     </Link>
                                 </nav>
                             ))

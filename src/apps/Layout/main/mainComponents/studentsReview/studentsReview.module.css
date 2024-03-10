@@ -65,7 +65,7 @@
     column-gap: 24px;
 }
 
-.swiperButtonPrev,
+/* .swiperButtonPrev,
 .swiperButtonNext {
     background: #fff;
     cursor: pointer;
@@ -79,7 +79,7 @@
 .swiperButtonPrev:hover,
 .swiperButtonNext:hover {
     background: linear-gradient(0deg, rgba(44, 46, 53, .1), rgba(44, 46, 53, .1)), #fff;
-}
+} */
 
 .buttonArrangement {
     position: absolute;

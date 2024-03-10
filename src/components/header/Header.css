@@ -86,4 +86,6 @@ nav a:hover {
     padding: 5px 10px;
   }
 
-  
+  a {
+    color: white;
+  }
