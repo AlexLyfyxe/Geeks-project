@@ -7,9 +7,8 @@ const LayoutRoutes = () => {
     return (
         <div>
             <Routes>
-                <Route path="/mainPage" element={<LayoutPages.Main/>} />
+                <Route path="/" element={<LayoutPages.Main/>} />
                 <Route path="/aboutUs" element={<LayoutPages.AboutUs/>} />
-                <Route path="/advantages" element={<LayoutPages.Advantages/>} />
                 <Route path="/courses" element={<LayoutPages.Courses/>} />
                 <Route path="/geeksJunior" element={<LayoutPages.GeeksJunior/>} />
                 <Route path="/geeksPro" element={<LayoutPages.GeeksPro/>} />
