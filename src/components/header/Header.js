@@ -4,13 +4,13 @@ import { NavbarList } from "../../utils/NavbarList";
 import "./Header.css"
 import Arrow from '../header/ic_arrow_forward_48px.svg'
 import Translate from './Translate';
-// import { useTranslation } from 'react-i18next';
-
+import { useTranslation } from 'react-i18next';
+import { Trans } from 'react-i18next';
 
 
 const Header = () => {
 
-    // const { t } = useTranslation();
+    const { t } = useTranslation();
 
 
     return (
@@ -23,10 +23,11 @@ const Header = () => {
                     {/*{*/}
                     <div className="navigation_nav">
                         {
-                            NavbarList.map(item => (
+                            NavbarList.map((item, index) => (
                                 <nav key={item.id} >
                                     <Link to={item.route}>
-                                        {item.caption}
+                                        {/* {item.caption} */}
+                                        <Trans i18nKey={`header.text_${index + 1}`}>{t(`header.${item.caption})`)}</Trans>
                                     </Link>
                                 </nav>
                             ))
@@ -35,7 +36,7 @@ const Header = () => {
                     </div>
                     {/*}*/}
                     <a className="btn" href="https://geeks.bitrix24site.ru/crm_form_85mqv/">
-                        ЗАПИСАТЬСЯ
+                        {t("sign_up")}
                         <img src={Arrow} alt="" />
                     </a>
                 </div>

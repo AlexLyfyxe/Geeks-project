@@ -43,6 +43,7 @@ nav a {
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
+   
 }
 nav a:hover {
     font-weight: 600;
@@ -64,3 +65,27 @@ nav a:hover {
     width: 21px;
     height: 21px;
 }
+
+
+/* часть с переволдом */
+
+.TranslateSelect {
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    background: #2c2e35;
+    border: none;
+}
+
+.TranslateOption {
+    padding: 10px;
+}
+
+  .custom-select select option {
+    padding: 5px 10px;
+  }
+
+  

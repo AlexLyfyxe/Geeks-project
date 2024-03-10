@@ -1,8 +1,9 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import classes from "./GeeksCompanies.module.css";
 import arrowLeft from "../img/arrows/arrow-left.svg"
 import arrowRight from "../img/arrows/arrow-right.svg"
 import SliderSlick from "./Slider";
+import { useTranslation } from 'react-i18next';
 
 function GeeksCompanies() {
 
@@ -14,18 +15,21 @@ function GeeksCompanies() {
     const previous = () => {
         sliderRef.current.slickPrev();
     };
+
+    const { t } = useTranslation();
+
     return (
         <section className={classes.GeeksCompanies}>
             <div className={classes.container}>
                 <div className={classes.companies_wrap}>
                     <div className={classes.title_button}>
-                        <p className={classes.partners}>наши партнеры</p>
+                        <p className={classes.partners}>{t("geeks_companies_text")}</p>
                         <div className={classes.slider_button}>
                             <button className={classes.arrow_button} id={'prevBtn'} onClick={previous}>
                                 <img src={arrowLeft} alt={'ArrowLeft'}></img>
                             </button>
                             <button className={classes.arrow_button} id={'nextBtn'} onClick={next} >
-                                <img src={arrowRight} alt={'ArrowRight'}/>
+                                <img src={arrowRight} alt={'ArrowRight'} />
                             </button>
                         </div>
                     </div>
@@ -34,7 +38,7 @@ function GeeksCompanies() {
             <div className={classes.slider_container}>
                 <div className={classes.slider_wrap}>
                     <div className={classes.slider}>
-                        <SliderSlick sliderRef={sliderRef} next={next} previous={previous}/>
+                        <SliderSlick sliderRef={sliderRef} next={next} previous={previous} />
                     </div>
                 </div>
             </div>

@@ -1,14 +1,13 @@
 import AboutUs from "./aboutUs/AboutUs";
 import Courses from "./courses/Courses";
-
 import GeeksPro from "./geeksPro/GeeksPro";
 import GeeksJunior from "./geeksJunior/GeeksJunior";
-import Main from "./main/Main";
+import MainAboutUp from "./aboutUs/blocks/mainAbout/MainAboutUp";
 
 export {
     AboutUs,
     Courses,
-    Main,
+    MainAboutUp,
     GeeksPro,
     GeeksJunior
 }
