@@ -1,4 +1,48 @@
-.div {
-  display: flex;
-  flex-direction: column;
+.mission-container {
+  background-color: #fff;
+  margin: 0 140px;
+  color: black;
+  padding: 56px 76px;
+  margin-top: 100px;
+
+  .title {
+    font-size: 46px;
+    font-family: Reforma Grotesk, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    align-items: flex-start;
+    font-weight: 800;
+    margin-bottom: 56px;
+  }
+  @media (max-width: 1440px) {
+    .title {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .column {
+    flex: 1;
+  }
+
+  .column-title {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: Reforma Grotesk, sans-serif;
+    text-transform: uppercase;
+  }
+
+  .column-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    color: #2c2e35;
+  }
 }

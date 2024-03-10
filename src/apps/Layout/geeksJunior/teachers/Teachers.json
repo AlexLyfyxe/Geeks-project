@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Кылым Талгарбек",
+    "subtitle": "Со-основатель и директор ОЦ \"Brainy\", автор методики детского программирования Minecraft. Стаж преподавания 6 лет",
+    "image": "https://geeks.kg/back_media/geeks_jr/teachers/2023/11/15/6c94d431-701f-44a0-a022-ca000236efc2.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Медина Алиева",
+    "subtitle": "ОЦ \"Brainy\", преподаватель Roblox. Стаж преподавания 1 год",
+    "image": "https://geeks.kg/back_media/geeks_jr/teachers/2023/11/15/58448731-ab98-4985-9c77-16d3ff7f80e5.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Мухаммед Хабиев",
+    "subtitle": "ОЦ \"Geeks\", преподаватель Minecraft. Стаж преподавания 1 год",
+    "image": "https://geeks.kg/back_media/geeks_jr/teachers/2023/11/15/30ab0f15-4572-4e83-ae37-9308931f72d4.jpeg"
+  }
+]
