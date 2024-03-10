@@ -18,7 +18,7 @@ const AboutUs = () => {
             <HistoryAdd />
             <OurValues />
             <WorkBlock />
-            <Qualities />
+            {/*<Qualities />*/}
             {/*<OurTeam/>*/}
         </>
     );
