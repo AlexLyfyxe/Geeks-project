@@ -1,5 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
+import "./Header.css"
+
 
 const Translate = () => {
 
@@ -12,12 +14,12 @@ const Translate = () => {
     };
     return (
         <>
-            <select onChange={changeLanguage}>
-                <option value="ru" >RU</option>
-                <option value="en" >EN</option>
-
-            </select>
-
+            <div class="custom-select">
+                <select className='TranslateSelect' onChange={changeLanguage}>
+                    <option className='TranslateOption' value="ru" >RUS </option>
+                    <option className='TranslateOption' value="en" >ENG </option>
+                </select>
+            </div>
 
         </>
     )

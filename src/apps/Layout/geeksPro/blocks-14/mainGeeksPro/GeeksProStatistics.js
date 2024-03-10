@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import {useRef} from "react";
+import { useRef } from "react";
+import { useTranslation } from 'react-i18next';
+import { Trans } from 'react-i18next';
 
 const NumberCounter = ({ start, end, text }) => {
     const [count, setCount] = useState(start);
     const counterRef = useRef(null);
+
+    const { t } = useTranslation();
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -44,7 +48,9 @@ const NumberCounter = ({ start, end, text }) => {
             <h4 className="num_count" ref={counterRef}>
                 {Math.round(count)}
             </h4>
-            <p>{text}</p>
+            <p>
+                {text}
+            </p>
         </>
     );
 };

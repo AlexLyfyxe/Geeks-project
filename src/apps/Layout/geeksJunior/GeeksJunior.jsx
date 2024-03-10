@@ -1,7 +1,6 @@
 import React from 'react';
 
-
-function GeeksJunior () {
+function GeeksJunior() {
     return (
         <div>
             <h1>Geeks Junior</h1>
