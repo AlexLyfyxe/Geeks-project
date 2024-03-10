@@ -7,9 +7,9 @@ const Register = () => {
 
     return (
         <div className="registerPage">
-            <div className="header">
-                <img src={logo} alt="geeksLogo"/>
-            </div>
+            {/*<div className="header">*/}
+            {/*    <img src={logo} alt="geeksLogo"/>*/}
+            {/*</div>*/}
             <div className="content">
                 <div className="content-text">
                     <h1>Geeks Online</h1>

@@ -13,6 +13,7 @@ const LayoutRoutes = () => {
                 <Route path="/courses" element={<LayoutPages.Courses />} />
                 <Route path="/geeksJunior" element={<LayoutPages.GeeksJunior />} />
                 <Route path="/geeksPro" element={<LayoutPages.GeeksPro />} />
+
             </Routes>
         </div>
     );

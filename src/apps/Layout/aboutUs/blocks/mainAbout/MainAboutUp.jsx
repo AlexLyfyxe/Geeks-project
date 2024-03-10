@@ -1,6 +1,12 @@
 import React from "react";
+<<<<<<< HEAD
 import { motion } from "framer-motion";
 import '../mainAbout/mainAbout.css'
+=======
+import '../mainAbout/mainAbout.css'
+import {motion} from "framer-motion";
+import './mainAbout.css'
+>>>>>>> 78cfdbd849ab55a1a00f3fbaf9ecc9ecdeb73221
 
 const TextAnimation = {
     hidden: {
